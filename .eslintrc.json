@@ -1,3 +1,18 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"], 
+    "indent": ["error", "tab"],
+    "linebreak-style": 0,
+    "no-mixed-spaces-and-tabs": 0,
+    "no-empty": [2, { "allowEmptyCatch": true }],
+    "react/prop-types": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/display-name": "off",
+    "react/no-unescaped-entities": 0,
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
 }
