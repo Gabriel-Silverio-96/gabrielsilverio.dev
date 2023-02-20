@@ -1,5 +1,10 @@
 :root {
   --background-main: #000000;
+
+  --color-primary: #706DFF;
+  --color-secondary: #FFEA2A;
+
+  --color-common-write: #FFFFFF;
 }
 
 * {
@@ -12,10 +17,21 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: inherit;
 }
 
 body {
   background-color: var(--background-main);
+}
+
+input {
+  font-family: var(--source-font);
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 a {

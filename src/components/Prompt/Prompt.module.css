@@ -1,0 +1,22 @@
+.prompt {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;    
+}
+
+.prompt input {
+    background: transparent;
+    border: 0;
+    color: var(--color-secondary);
+    caret-color: var(--color-secondary);
+    font-weight: 600;
+    width: 100%;
+}
+
+.prompt input:focus-visible {
+    outline: none;
+}
+
+.prompt h4 {
+    color: var(--color-common-write);
+}
