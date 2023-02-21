@@ -25,6 +25,10 @@ const Help = () => (
 						<td>contact</td>
 						<td>More information about the media</td>
 					</tr>
+					<tr>
+						<td>clear</td>
+						<td>Clear terminal</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
