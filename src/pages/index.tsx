@@ -1,4 +1,3 @@
-import NotRecognizedCommand from "@/components/NotRecognizedCommand";
 import Prompt from "@/components/Prompt";
 import styles from "@/styles/Home.module.css";
 import commands from "@/utils/comands/comands";
@@ -14,8 +13,13 @@ export default function Home() {
 		setCommand(value);
 
 		const commandRender = commands(value);
+		if (value === "gs_clear") {
+			const PromptRender = () => <Prompt onKeyDown={onKeyDown} />;
+			return setRender([PromptRender]);
+		}
+
 		setRender(prevState => [...prevState, ...commandRender]);
-	};	
+	};
 
 	return (
 		<>
@@ -28,7 +32,7 @@ export default function Home() {
 			<main className={styles.main}>
 				{render.map((Component, index) => (
 					<Fragment key={index}>
-						<Component onKeyDown={onKeyDown}/>
+						<Component onKeyDown={onKeyDown} />
 					</Fragment>
 				))}
 			</main>
