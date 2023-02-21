@@ -1,0 +1,21 @@
+.contact {
+    margin: 0.5rem 0 1rem;
+}
+
+.contact div h4 {
+    color: var(--color-common-write);
+    margin: 1rem 0;
+}
+
+.contact table {
+    color: var(--color-common-write);
+    font-weight: 600;
+}
+
+.contact table td {
+    padding-bottom: 1rem;
+}
+
+.contact table tr td:first-child {
+    width: 10rem;
+}
