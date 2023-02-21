@@ -1,0 +1,11 @@
+.about {
+    margin: 0.5rem 0 1rem;
+    font-weight: 600;
+}
+
+.about p {
+    color: var(--color-common-write);
+    max-width: 40rem;
+    width: auto;
+    margin-bottom: 1rem;
+}

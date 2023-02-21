@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Contacts from "@/components/Contact";
 import Help from "@/components/Help";
 import NotRecognizedCommand from "@/components/NotRecognizedCommand";
@@ -10,6 +11,7 @@ const commands = (command: Command) => {
 		gs_help: [Help, Prompt],
 		gs_contact: [Contacts, Prompt],
 		gs_project: [Project, Prompt],
+		gs_about: [About, Prompt],
 	};
 
 	const notRecognizedCommand = [NotRecognizedCommand, Prompt];
