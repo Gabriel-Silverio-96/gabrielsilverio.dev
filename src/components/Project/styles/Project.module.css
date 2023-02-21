@@ -1,0 +1,20 @@
+.project {
+    margin: 0.5rem 0 1rem;
+    font-weight: 600;
+}
+
+.project p {
+    color: var(--color-common-write);
+    max-width: 40rem;
+    width: auto;
+}
+
+.project a {
+    display: block;
+    margin: 1rem 0;
+}
+
+.project img {
+    filter: contrast(0.5);
+    mix-blend-mode: hard-light;
+}
