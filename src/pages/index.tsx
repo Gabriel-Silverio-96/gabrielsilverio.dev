@@ -3,6 +3,9 @@ import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 
 export default function Home() {
+	const onKeyDown = (event: any) => {
+		console.log(event.currentTarget.value);		
+	};
 	return (
 		<>
 			<Head>
@@ -12,7 +15,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<Prompt />
+				<Prompt onKeyDown={onKeyDown}/>
 			</main>
 		</>
 	);
