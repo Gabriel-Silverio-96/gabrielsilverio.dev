@@ -6,13 +6,11 @@ import { Fragment, KeyboardEvent, useState } from "react";
 
 export default function Home() {
 	const [render, setRender] = useState([Prompt]);
-	const [command, setCommand] = useState("");
 
 	const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
 		const value: any = event.currentTarget.value.replace(" ", "_");
-		setCommand(value);
-
 		const commandRender = commands(value);
+		
 		if (value === "gs_clear") {
 			const PromptRender = () => <Prompt onKeyDown={onKeyDown} />;
 			return setRender([PromptRender]);
