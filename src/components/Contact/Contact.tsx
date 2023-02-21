@@ -23,14 +23,6 @@ const Contact = () => (
 							</a>
 						</td>					
 					</tr>			
-					<tr>
-						<td>email</td>
-						<td>
-							<a href="mailto:gabriel_silverio10@outlook.com">
-								gabriel_silverio10@outlook.com								
-							</a>
-						</td>					
-					</tr>			
 				</tbody>
 			</table>
 		</div>
