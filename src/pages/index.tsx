@@ -1,11 +1,22 @@
+import NotRecognizedCommand from "@/components/NotRecognizedCommand";
 import Prompt from "@/components/Prompt";
 import styles from "@/styles/Home.module.css";
+import commands from "@/utils/comands/comands";
 import Head from "next/head";
+import { Fragment, KeyboardEvent, useState } from "react";
 
 export default function Home() {
-	const onKeyDown = (event: any) => {
-		console.log(event.currentTarget.value);		
-	};
+	const [render, setRender] = useState([Prompt]);
+	const [command, setCommand] = useState("");
+
+	const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
+		const value: any = event.currentTarget.value.replace(" ", "_");
+		setCommand(value);
+
+		const commandRender = commands(value);
+		setRender(prevState => [...prevState, ...commandRender]);
+	};	
+
 	return (
 		<>
 			<Head>
@@ -15,7 +26,11 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<Prompt onKeyDown={onKeyDown}/>
+				{render.map((Component, index) => (
+					<Fragment key={index}>
+						<Component onKeyDown={onKeyDown}/>
+					</Fragment>
+				))}
 			</main>
 		</>
 	);
