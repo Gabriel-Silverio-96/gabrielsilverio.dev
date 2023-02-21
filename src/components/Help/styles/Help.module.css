@@ -1,0 +1,28 @@
+.help {
+    margin: 0.5rem 0 1rem;
+}
+
+.help h4 {
+    color: var(--color-common-write);
+}
+
+.commands {
+    margin-top: 2rem;
+}
+
+.commands h4 {
+    margin: 1rem 0;
+}
+
+.commands table {
+    color: var(--color-common-write);
+    font-weight: 600;
+}
+
+.commands table td {
+    padding-bottom: 1rem;
+}
+
+.commands table tr td:first-child {
+    width: 10rem;
+}
