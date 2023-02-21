@@ -1,0 +1,4 @@
+.message {
+    color: var(--color-common-write);
+    margin: 0.5rem 0 1rem;
+}
