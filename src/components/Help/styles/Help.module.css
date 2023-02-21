@@ -3,7 +3,7 @@
 }
 
 .help h4 {
-    color: var(--color-common-write);
+    color: var(--color-common-white);
 }
 
 .commands {
@@ -15,7 +15,7 @@
 }
 
 .commands table {
-    color: var(--color-common-write);
+    color: var(--color-common-white);
     font-weight: 600;
 }
 

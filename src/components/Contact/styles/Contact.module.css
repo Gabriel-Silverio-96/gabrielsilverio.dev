@@ -3,12 +3,12 @@
 }
 
 .contact div h4 {
-    color: var(--color-common-write);
+    color: var(--color-common-white);
     margin: 1rem 0;
 }
 
 .contact table {
-    color: var(--color-common-write);
+    color: var(--color-common-white);
     font-weight: 600;
 }
 

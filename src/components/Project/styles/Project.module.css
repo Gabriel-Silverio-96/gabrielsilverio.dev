@@ -4,7 +4,7 @@
 }
 
 .project p {
-    color: var(--color-common-write);
+    color: var(--color-common-white);
     max-width: 40rem;
     width: auto;
 }
