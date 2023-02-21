@@ -22,10 +22,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-style: inherit;
+  color: var(--color-common-white);
 }
 
 body {
   background-color: var(--background-main);
+}
+
+p {
+  color: var(--color-common-white);
 }
 
 input {

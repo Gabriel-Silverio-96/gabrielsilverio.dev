@@ -16,7 +16,3 @@
 .prompt input:focus-visible {
     outline: none;
 }
-
-.prompt h4 {
-    color: var(--color-common-white);
-}

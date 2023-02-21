@@ -4,7 +4,6 @@
 }
 
 .about p {
-    color: var(--color-common-white);
     max-width: 40rem;
     width: auto;
     margin-bottom: 1rem;
