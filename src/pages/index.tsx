@@ -1,5 +1,4 @@
 import Prompt from "@/components/Prompt";
-import styles from "@/styles/Home.module.css";
 import commands from "@/utils/commands";
 import Head from "next/head";
 import { Fragment, KeyboardEvent, useState } from "react";
@@ -39,7 +38,7 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className={styles.main}>
+			<main>
 				{render.map((Component, index) => (
 					<Fragment key={index}>
 						<Component onKeyDown={onKeyDown} />
