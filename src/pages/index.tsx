@@ -1,6 +1,6 @@
 import Prompt from "@/components/Prompt";
 import styles from "@/styles/Home.module.css";
-import commands from "@/utils/comands/comands";
+import commands from "@/utils/commands";
 import Head from "next/head";
 import { Fragment, KeyboardEvent, useState } from "react";
 
