@@ -4,7 +4,7 @@ import Help from "@/components/Help";
 import NotRecognizedCommand from "@/components/NotRecognizedCommand";
 import Project from "@/components/Project";
 import Prompt from "@/components/Prompt";
-import { Command, ICommandsOptions } from "./types/Command";
+import { Command, ICommandsOptions } from "./types/commands";
 
 const commands = (command: Command) => {
 	const commandsOptions: ICommandsOptions = {
