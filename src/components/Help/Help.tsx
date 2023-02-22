@@ -23,7 +23,7 @@ const Help = () => (
 					</tr>
 					<tr>
 						<td>contact</td>
-						<td>More information about the media</td>
+						<td>Contact me at...</td>
 					</tr>
 					<tr>
 						<td>clear</td>
