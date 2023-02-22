@@ -36,7 +36,6 @@ const Prompt: React.FC<IPrompt> = (props) => {
 			<h4>gabrielsilverio.dev:~$</h4>
 			<input
 				type="text"
-				autoFocus
 				placeholder="type: gs help and press enter"
 				ref={inputRef}
 				spellCheck={false}
