@@ -5,7 +5,7 @@ const Help = () => (
 		<h4>type: gs "command"</h4>
 
 		<div className={styles.commands}>
-			<h4>Comands</h4>
+			<h4>Commands</h4>
 
 			<table>
 				<tbody>
