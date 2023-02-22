@@ -9,9 +9,9 @@ import { Command, ICommandsOptions } from "./types/Command";
 const commands = (command: Command) => {
 	const commandsOptions: ICommandsOptions = {
 		gs_help: [Help, Prompt],
-		gs_contact: [Contacts, Prompt],
-		gs_project: [Project, Prompt],
 		gs_about: [About, Prompt],
+		gs_project: [Project, Prompt],
+		gs_contact: [Contacts, Prompt],
 	};
 
 	const notRecognizedCommand = [NotRecognizedCommand, Prompt];
