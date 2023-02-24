@@ -23,7 +23,7 @@ gs "command"
 
 <br>
 
-| Command   | Describe                                                   | 
+| Commands   | Description                                               | 
 | :---      |                                                       ---: |
 | help      | View all options                                           | 
 | about     | With this option you can get to know me a little more      | 
