@@ -27,7 +27,7 @@ gs "command"
 | :---      |                                                       ---: |
 | help      | View all options                                           | 
 | about     | With this option you can get to know me a little more      | 
-| project   | See what project I'm currently working on                  | 
+| project   | See which portfolio project I'm currently working on       | 
 | contact   | Contact me at...                                           | 
 | clear     | Clear terminal                                             |
 
