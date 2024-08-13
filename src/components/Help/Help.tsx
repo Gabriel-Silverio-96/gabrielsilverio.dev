@@ -15,11 +15,16 @@ const Help = () => (
 					</tr>
 					<tr>
 						<td>about</td>
-						<td>With this option you can get to know me a little more</td>					
+						<td>
+							With this option you can get to know me a little
+							more
+						</td>
 					</tr>
 					<tr>
 						<td>project</td>
-						<td>See what project I'm currently working on</td>					
+						<td>
+							See which portfolio project I'm currently working on
+						</td>
 					</tr>
 					<tr>
 						<td>contact</td>
