@@ -1,24 +1,22 @@
 <p align="center">
-    <img alt="thumbnail" width="500" src="https://user-images.githubusercontent.com/53228013/221320300-0f447720-7099-4fac-ab7f-09b9b15c50a5.png" />
+    <img alt="Background terminal" src="https://github.com/user-attachments/assets/1663e144-1ff4-41fe-a76c-ed725d621977" />
 </p>
 
 <h1 align="center">
-  This is my portfolio in terminal format
+   Terminal-style portfolio
 </h1>
 
-## 💬 Describe
+[Link](https://gabrielsilverio-dev.vercel.app/)
 
-🌐 [Link page](https://gabrielsilverio-dev.vercel.app/)
-
-See more about me, project and contact. Visit my portfolio in terminal format.
+A developer portfolio with a twist built as a terminal-style interface where visitors can interact using typed commands. This project offers a unique and engaging way to explore my background, projects, and contact information.
 <br>
 <br>
 
-## 📌 Type these commands
+## Type these commands
 <br>
 
 ```
-gs "command"
+gs <command-name>
 ```
 
 <br>
@@ -31,7 +29,7 @@ gs "command"
 | contact   | Contact me at...                                           | 
 | clear     | Clear terminal                                             |
 
-## ⚡ Run
+## Run
 
 With the project cloned, go to folder `gabrielsilverio.dev`
 
@@ -46,7 +44,7 @@ npm i
 yarn
 ```
 
-###  Run
+###  Start project
 
 ```
 npm run dev
